@@ -8,7 +8,7 @@ from langchain_community.llms import AI21
 import os
 from langchain.prompts import PromptTemplate
 
-os.environ["AI21_API_KEY"] = "tsvATwIXwXIhlKujLwgyCeebJWXcGs80"
+os.environ["AI21_API_KEY"] = "*******************************"
 llm = AI21(ai21_api_key=os.environ.get('AI21_API_KEY'))
 
 api_wrapper = WikipediaAPIWrapper(top_k_results=1, 
