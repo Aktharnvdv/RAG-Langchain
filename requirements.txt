@@ -1,0 +1,16 @@
+unstructured
+OpenAI
+wikipedia
+pdf2image   
+tiktoken     
+weaviate-client
+flask
+langchain_experimental
+langchain_openai 
+langchain_community
+langchainhub
+langchain
+eventlet
+celery[redis]
+fitz
+pydantic
