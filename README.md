@@ -1,6 +1,24 @@
 # RAG - Langchain
 
-This project, Rag-langchain (Retrieval Augmented Generation - Langchain), is a Flask-based web application designed to function as an interface for seamless interaction with a language processing agent. The language processing agent, implemented in base_agent.py, efficiently utilizes the Celery task queue for asynchronous processing. Users have the capability to submit text input through the /chat endpoint, triggering the enqueueing of a Celery task to handle the processing of the user input. Subsequently, users can monitor the status and retrieve the results of the task via the /result/<task_id> endpoint. The integration of Rag-langchain, incorporating Retrieval Augmented Generation, enhances the overall language processing capabilities of this web application.
+    Project Overview:
+    
+    The project is named Rag-langchain (Retrieval Augmented Generation - Langchain).
+    It is a Flask-based web application serving as an interface for interacting with a language processing agent.
+    Language Processing Agent:
+    
+    The language processing agent is implemented in base_agent.py.
+    It leverages the Celery task queue for efficient asynchronous processing.
+    User Interaction:
+    
+    Users can submit text input to the /chat endpoint.
+    This action triggers the enqueueing of a Celery task to process the user input.
+    Task Monitoring:
+    
+    Users can check the status and results of the task through the /result/<task_id> endpoint.
+    Integration Benefits:
+    Rag-langchain integrates Retrieval Augmented Generation, enhancing the language processing capabilities of the web application.
+
+By combining the capabilities of Rag-langchain with the existing features, the project provides a robust and effective solution for interacting with a language processing agent in a web environment.
 
 # Usage
 Prerequisites
